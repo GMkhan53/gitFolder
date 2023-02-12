@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment Page</title>
+</head>
+<body>
+  <style>
+   table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+body{
+  background-color: rgb(151, 151, 189);
+}
+.table_container{
+  display: flex;
+  justify-content: center;
+}
+table, th, td {
+  border: 1px solid;
+  padding: 5px;
+  text-align: left;
+  font-size: 12px;
+}
+th {
+  text-align: left;
+  background-color: rgb(0, 0, 0);
+  color: bisque;
+}
+tr {
+  background-color: rgb(24, 134, 158);
+}
+td {
+  vertical-align: centre;
+}
+.container_form  {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.container_form form {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: rgb(77, 85, 104);
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 8px 20px;
+  border-radius: 3px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: rgb(24, 134, 158);
+  border-radius: 6px;
+  padding: 14px 20px;
+  margin: 8px 60px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+button:hover {
+  opacity: 0.9;
+  color: blanchedalmond;
+}
+.list_container{
+  max-width: 500px;
+}
+.max_width {
+  padding: 0 10px;
+  max-width:250px;
+  margin: 0 auto;
+}
+  </style>
+  <div class="max_width">
+  <div class="list_container">
+    <h1>Unordered  List</h1>
+    <ul>
+      <li>islam</li>
+      <li>Noman</li>
+      <li>Milk</li>
+      <li>Milk</li>
+      <li>Milk</li>
+    </ul>
+  </div>
+</div>
+  <div class="max_width">
+  <div class="list_container">
+    <h1>ordered  List</h1>
+    <ol>
+      <li>hammad</li>
+      <li>ali</li>
+      <li>nasir</li>
+    </ol>
+  </div>
+</div>
+  <div class="table_container" style="overflow-x:auto;">
+  <table>
+    <tr>
+      <th>Sr.No</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Semester</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>1. </td>
+      <td>Muhammad</td>
+      <td>islam</td>
+      <td> 7th</td>
+      <td>Pakistan</td>
+    </tr>
+    <tr>
+      <td>1. </td>
+      <td>Muhammad</td>
+      <td>islam</td>
+      <td> 7th</td>
+      <td>Pakistan</td>
+    </tr>
+    <tr>
+      <td>1. </td>
+      <td>Muhammad</td>
+      <td>islam</td>
+      <td> 7th</td>
+      <td>Pakistan</td>
+    </tr>
+    <tr>
+      <td>1. </td>
+      <td>Muhammad</td>
+      <td>islam</td>
+      <td> 7th</td>
+      <td>Pakistan</td>
+    </tr>
+    <tr>
+      <td>1. </td>
+      <td>Muhammad</td>
+      <td>islam</td>
+      <td> 7th</td>
+      <td>Pakistan</td>
+    </tr>
+    <tr>
+      <td>1. </td>
+      <td>Muhammad</td>
+      <td>islam</td>
+      <td> 7th</td>
+      <td>Pakistan</td>
+    </tr>
+    <tr>
+      <td>1. </td>
+      <td>Muhammad</td>
+      <td>islam</td>
+      <td> 7th</td>
+      <td>Pakistan</td>
+    </tr>
+    <tr>
+      <td>1. </td>
+      <td>Muhammad</td>
+      <td>islam</td>
+      <td> 7th</td>
+      <td>Pakistan</td>
+    </tr>
+    <tr>
+      <td>1. </td>
+      <td>Muhammad</td>
+      <td>islam</td>
+      <td> 7th</td>
+      <td>Pakistan</td>
+    </tr>
+    <tr>
+      <td>1. </td>
+      <td>Muhammad</td>
+      <td>islam</td>
+      <td> 7th</td>
+      <td>Pakistan</td>
+    </tr>
+  </table>
+</div>
+<div class="container_form">
+  <form>
+    <label for="fname"><b>First Name</b></label> <br>
+    <input type="text" placeholder="Enter Your First Name" Fname="Fname" required><br>
+    <label for="psw"><b>Middle Name</b></label><br>
+    <input type="text" placeholder="Enter Your Middle Name" Mname="Mname" required><br>
+    <div class="container">
+    <label for="uname"><b>Last Name</b></label> <br>
+    <input type="text" placeholder="Enter Your Last Name" Lname="Lname" required><br>
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+    <label for="psw"><b>Email</b></label><br>
+    <input type="password" placeholder="Enter Your Email" name="email" required><br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Male
+    </label>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Female <br>
+    </label>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> User
+    </label>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Admin <br>
+    </label>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+</body>
+</html>
